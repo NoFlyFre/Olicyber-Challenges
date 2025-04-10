@@ -1,11 +1,11 @@
-Lanciando il comando `mtp output.txt` si ha il seguente output che ho completato a mano:
+Lanciando il comando `mtp output.txt` si ha il seguente output:
 
 ```json
 {
   "decryptions": [
     "IL CRITTOSISTEMA CHE STO UTILIZZANDO SEMBRA INDISTRUTTIBILE",
     "NON LEGGERAI MAI QUESTA SEGRETISSIMA FRASE",
-    "LA MIA PREZIOSA FLAG: flag{M4ny_71m3_P4D_N1gH7m4r3}",
+    "LA MIA PREZIOSA FLAG: **flag{M4ny_71m3_P4D_N1gH7m4r3}**",
     "I MIEI AMICI CONTINUANO A DIRMI CHE NON DOVREI UTILIZZARE PIU DI UNA VAB__ L_ _T___ ",
     "SONO SICURO CHE NON CI SARANNO PROBLEMI, I MIEI AMICI SI SBAGLIANO DI MK__O",
     "HO AVUTO UNA BELLISSIMA IDEA PER RISOLVERE IL PROBLEMA DEL RISCALDAMENZA__LO_A_E",
