@@ -5,11 +5,10 @@ for key in range(256):
     plaintext = ''
     for b in cipher_bytes:
         p = b ^ key
-        if 32 <= p <= 126:  # solo caratteri ASCII stampabili
+        if 32 <= p <= 126:  
             plaintext += chr(p)
         else:
-            break  # salta chiavi che producono caratteri illeggibili
+            break  
     else:
-        # se non è uscito dal ciclo, allora è una stringa potenzialmente valida
         print(f"Chiave: {key} (0x{key:02x}) => {plaintext}")
         print(f"Flag: flag{{{plaintext}}}")
